@@ -1,36 +1,36 @@
 # Telegram-Weather-Bot
-### Описание:
-Telegram-бот, который показывает погоду по любой локации. 
-### Поддерживает:
-- текущую погоду;
-- подробный и краткий прогноз;
-- прогноз на несколько дней;
-- настройку ежедневного уведомления о погоде в указанное пользователем время;
-- сохранение вашей указаной локации.
-### Функции:
-- /start - приветсвие и краткая информация;
-- /help - справка по командам;
-- /weather - узнать погоду в указаной локации;
-- /myloc - показать погоду по сохраненной локации;
-- /setloc - установить или изменить локацию;
-- setime - настроить ежедневное уведомление о погоде.
-### Требования:
+### Description:
+A Telegram bot that displays the weather for any location.
+### Supports:
+- Current weather;
+- Detailed and short forecast;
+- Multi-day forecast;
+- Daily weather notification at a user-specified time;
+- Saving your specified location.
+### Functions:
+- /start - Welcome and brief information;
+- /help - Command help;
+- /weather - Check the weather at a specified location;
+- /myloc - Show weather at a saved location;
+- /setloc - Set or change a location;
+- setime - Set a daily weather notification.
+### Requirements:
 - Python 3.11+
 - aiogram
 - SQLAlchemy
 - APScheduler
 - pydantic-settings
-### Установка:
-1. Клонировать репозиторий:  
+### Installation:
+#### 1. Clone the repository:  
 git clone  
-cd Telegram-Weather-Bot
-2. Создать виртуальное окружение и активировать его:  
+cd Telegram-Weather-Bot  
+#### 2. Create a virtual environment and activate it:  
 python -m venv .venv  
 source .venv/bin/activate - Linux / Mac  
 .venv\Scripts\activate - Windows  
-5. Установить зависимости:  
+#### 3. Install dependencies:  
 pip install -r requirements.txt  
-6. Настроить .env файл с токеном бота:  
+#### 4. Configure the .env file with the bot token:  
 BOT_TOKEN=token  
-7. Запустить бота:  
-python run.py  
+#### 5. Run the bot:  
+python run.py
