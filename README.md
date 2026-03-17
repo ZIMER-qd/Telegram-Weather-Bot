@@ -26,8 +26,8 @@ git clone
 cd Telegram-Weather-Bot
 2. Создать виртуальное окружение и активировать его:
 python -m venv .venv
-source .venv/bin/activate - Linux / Mac
-.venv\Scripts\activate - Windows
+Для Linux / Mac - source .venv/bin/activate
+Для Windows - .venv\Scripts\activate
 5. Установить зависимости:
 pip install -r requirements.txt
 6. Настроить .env файл с токеном бота:
