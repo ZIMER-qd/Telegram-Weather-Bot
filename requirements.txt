@@ -2,3 +2,4 @@ aiogram==3.25.0
 APScheduler==3.11.2
 pydantic-settings==2.13.1
 SQLAlchemy==2.0.48
+pytz==2026.1.post1
