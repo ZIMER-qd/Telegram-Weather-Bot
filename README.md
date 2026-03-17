@@ -22,7 +22,7 @@ A Telegram bot that displays the weather for any location.
 - pydantic-settings
 ### Installation:
 #### 1. Clone the repository:  
-git clone  
+git clone https://github.com/ZIMER-qd/Telegram-Weather-Bot.git
 cd Telegram-Weather-Bot  
 #### 2. Create a virtual environment and activate it:  
 python -m venv .venv  
